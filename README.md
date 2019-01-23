@@ -15,4 +15,6 @@ Basically I want to parse the range inputs into a list such that even indices ma
 
 - Another optimization suggested in that stackoverflow page is to use numpy's search function instead of bisect, and the posted included proof that using that method along with numpy arrays is faster. I didn't have time to convert and do benchmarking, but that is definitely something I would explore. I am skeptical that a plain list is the best option here. At the very least, a deque would improve performance for inserting and removing from the head of the list, which may happen a fair amount. I could benchmark a deque (or other data structures if research reveals them) for their performance with bisect.
 
+- Also, the code for sorting IP addresses and sorting port ranges is virtually identical, so I would refactor them out into their own method so it was DRY. Sorry, I should have done during the 90 minutes, but it wasn't a priority as much as getting the code running.
+
 All of the teams sounds great and I'd be happy anywhere, but I think the policy team would give me the most unique experience, so that is most interesting to me.
