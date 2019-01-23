@@ -17,4 +17,6 @@ Basically I want to parse the range inputs into a list such that even indices ma
 
 - Also, the code for sorting IP addresses and sorting port ranges is virtually identical, so I would refactor them out into their own method so it was DRY. Sorry, I should have done during the 90 minutes, but it wasn't a priority as much as getting the code running.
 
+- Also, I don't want to cheat but there's an error on lines 56 and 96: it should be `elif x is 0 and y is 0:`. Again, testing all the possible merging paths would have caught this. My bad.
+
 All of the teams sounds great and I'd be happy anywhere, but I think the policy team would give me the most unique experience, so that is most interesting to me.
