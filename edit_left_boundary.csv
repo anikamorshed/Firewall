@@ -1,0 +1,3 @@
+inbound,tcp,80,192.168.1.2
+inbound,tcp,79,192.168.1.2
+inbound,tcp,80,192.168.1.1
